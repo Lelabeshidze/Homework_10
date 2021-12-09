@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+ol, ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    background-color: #0020F4;
+}
+.element2 {
+    color: #FFFFFF;
+}
+.header {
+    display:flex;
+}
+.footer {
+    margin-top: 150px;
+    background-color: #0020F4;
+}
+.mainelements {
+    display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: 200px;
+  grid-template-areas:
+    " element1  element2"
+    "section section"
+    "element3 element4 element5 element6 element7";
+}
+.element3, .element4, .element5, .element6, .element7 {
+    background-color:#0020F4 ;
+    display: flex;
+}
